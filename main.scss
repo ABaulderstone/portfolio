@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Khula:400,700');
+@import "overlay";
+@import "variables";
+
+body {
+    background-color: $sunset-background;
+    font-family: 'Khula', sans-serif; 
+}
+#landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;
+    background: url(waves.jpeg);
+    background-size: cover;
+}
+.transparent{
+    background-color: rgba(223, 210, 202, 0.07);
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    h1, h2{ 
+        color: $sunset-background;
+        text-transform: uppercase;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    h1{
+        margin: 5px;
+        font-size: 2em;
+    }
+    h2 {
+        margin-top:2px;
+        margin-bottom: 15vh;
+        font-size: 1.5em;
+    }
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+footer {
+    height: 5vh;
+}
