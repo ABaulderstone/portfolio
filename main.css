@@ -169,12 +169,12 @@ h1, h2, h3 {
 }
 
 #work {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  height: 100vh;
   background-color: #1C5166;
+  height: 100vh;
+}
+#work .typewriter {
+  height: 20%;
+  padding-top: 5%;
 }
 #work h2 {
   font-size: 1.5em;
@@ -182,12 +182,19 @@ h1, h2, h3 {
   margin-top: 50px;
   text-align: center;
 }
+#work .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80%;
+}
 
 footer {
   height: 5vh;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1025px) {
   .transparent h1 {
     margin: 5px;
     font-size: 3em;
@@ -244,23 +251,25 @@ footer {
   }
 
   #work {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
+    background-color: #1C5166;
     height: 100vh;
   }
   #work .typewriter {
-    align-self: flex-start;
+    height: 20%;
+    padding-top: 5%;
   }
   #work h2 {
-    font-size: 2em;
+    font: size 2em;
     color: #E6D8CF;
     margin-top: 50px;
-  }
-  #work p {
-    color: #E6D8CF;
     text-align: center;
+  }
+  #work .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
   }
 }
 
