@@ -107,7 +107,7 @@ body {
   max-width: 100vw;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #E6D8CF;
   text-transform: uppercase;
   font-family: "Cormorant Garamond", serif;
@@ -168,6 +168,21 @@ h1, h2 {
   margin: auto;
 }
 
+#work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  background-color: #1C5166;
+}
+#work h2 {
+  font-size: 1.5em;
+  color: #E6D8CF;
+  margin-top: 50px;
+  text-align: center;
+}
+
 footer {
   height: 5vh;
 }
@@ -188,9 +203,29 @@ footer {
   }
 
   #about {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 100vh;
+  }
+  #about .typewriter {
+    align-self: flex-start;
+  }
+  #about .image {
+    order: 2;
+    width: 100%;
+    margin-right: 3%;
+  }
+  #about div:nth-child(3) {
+    align-self: flex-start;
+    margin-top: 10%;
+  }
+  #about div:nth-child(4) {
+    margin-top: 10%;
+  }
+  #about div:nth-child(5) {
+    align-self: flex-end;
   }
   #about h2 {
     font-size: 2em;
@@ -200,14 +235,32 @@ footer {
   #about p {
     color: #1C5166;
     text-align: center;
-    width: 60%;
   }
   #about img {
-    float: right;
     border-radius: 50%;
-    width: 25%;
-    margin-top: 5%;
-    margin-right: 10%;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  #work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #work .typewriter {
+    align-self: flex-start;
+  }
+  #work h2 {
+    font-size: 2em;
+    color: #E6D8CF;
+    margin-top: 50px;
+  }
+  #work p {
+    color: #E6D8CF;
+    text-align: center;
   }
 }
 
