@@ -1,6 +1,10 @@
-.typewriter h1 {
+.typewriter {
+  margin-top:35px;
+}
+
+.typewriter h2 {
     overflow: hidden; 
-    border-right: .15em solid orange; 
+    border-right: .15em solid $sky-grey; 
     white-space: nowrap; 
     margin: 0 auto; 
     letter-spacing: .15em; 
@@ -18,5 +22,5 @@
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: $sky-grey; }
   }
