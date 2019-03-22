@@ -233,6 +233,14 @@ h2 {
   color: #E6D8CF;
   text-align: center;
 }
+#contact .container a {
+  text-decoration: none;
+  padding: 3px;
+  color: #E6D8CF;
+}
+#contact .container a:hover, #contact .container a:focus {
+  color: #ffc2c5;
+}
 #contact h2 {
   margin-top: 50px;
   text-align: center;

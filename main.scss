@@ -150,6 +150,14 @@ h2 {
             color: $sunset-background;
             text-align: center;
         }
+        a {
+            text-decoration: none;
+            padding: 3px;
+            color: $sunset-background;
+        }
+         a:hover, a:focus {
+             color: $main-pink;
+         }
 
     }
     
