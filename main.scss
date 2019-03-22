@@ -154,6 +154,15 @@ footer {
     .icons {
         margin-right:5%;
     }
+
+    a {
+        text-decoration: none;
+        padding: 3px;
+        color: $green-black;
+    }
+     a:hover, a:focus {
+         color: $main-pink;
+     }
 }
 
 @import "desktop";

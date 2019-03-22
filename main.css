@@ -235,6 +235,14 @@ footer span {
 footer .icons {
   margin-right: 5%;
 }
+footer a {
+  text-decoration: none;
+  padding: 3px;
+  color: #0E1F21;
+}
+footer a:hover, footer a:focus {
+  color: #ffc2c5;
+}
 
 @media only screen and (min-width: 1025px) {
   h2 {
