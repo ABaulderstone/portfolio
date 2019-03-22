@@ -84,8 +84,13 @@
             display:flex;
             flex-direction: row;
             justify-content: space-evenly;
-            width:100%;
+            width:80%;
             height: 80%;
+            margin: auto;
+
+            div{
+                width:40%;
+            }
     
         }
 }
