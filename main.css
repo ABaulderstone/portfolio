@@ -71,10 +71,6 @@ button:active {
   margin-top: 35px;
 }
 
-.typewriter {
-  margin-top: 35px;
-}
-
 .typewriter h2 {
   overflow: hidden;
   border-right: 0.15em solid #C0D2DE;
@@ -113,8 +109,12 @@ h1, h2, h3 {
   font-family: "Cormorant Garamond", serif;
 }
 
-h2 {
+.typewriter {
+  height: 20%;
+}
+.typewriter h2 {
   font-size: 1.5em;
+  text-align: center;
 }
 
 #landing {
@@ -146,11 +146,13 @@ h2 {
 }
 
 #about {
+  height: 100vh;
+}
+#about .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 100vh;
 }
 #about .image {
   align-self: center;
@@ -158,8 +160,6 @@ h2 {
 }
 #about h2 {
   color: #1C5166;
-  margin-top: 50px;
-  text-align: center;
 }
 #about p {
   color: #1C5166;
@@ -174,14 +174,6 @@ h2 {
   background-color: #1C5166;
   height: 100vh;
 }
-#work .typewriter {
-  height: 20%;
-  padding-top: 5%;
-}
-#work h2 {
-  margin-top: 50px;
-  text-align: center;
-}
 #work h3 {
   text-align: center;
 }
@@ -193,32 +185,9 @@ h2 {
   height: 80%;
 }
 
-#portfolio {
-  height: 100vh;
-}
-#portfolio h2 {
-  color: #1C5166;
-  margin-top: 50px;
-  text-align: center;
-}
-#portfolio .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  height: 100%;
-}
-#portfolio .container div {
-  border: solid 1px #1C5166;
-}
-
 #contact {
-  background-color: #1C5166;
+  background-color: #5A707E;
   height: 100vh;
-}
-#contact .typewriter {
-  height: 20%;
-  padding-top: 5%;
 }
 #contact .container {
   display: flex;
@@ -240,10 +209,6 @@ h2 {
 }
 #contact .container a:hover, #contact .container a:focus {
   color: #ffc2c5;
-}
-#contact h2 {
-  margin-top: 50px;
-  text-align: center;
 }
 
 aside {
@@ -292,29 +257,21 @@ footer a:hover, footer a:focus {
   }
 
   #about {
+    height: 100vh;
+  }
+  #about .typewriter {
+    height: 20%;
+    padding-top: 5%;
+  }
+  #about .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 100vh;
-  }
-  #about .typewriter {
-    align-self: flex-start;
+    height: 80%;
   }
   #about .image {
     order: 2;
-    width: 100%;
-    margin-right: 3%;
-  }
-  #about div:nth-child(3) {
-    align-self: flex-start;
-    margin-top: 10%;
-  }
-  #about div:nth-child(4) {
-    margin-top: 10%;
-  }
-  #about div:nth-child(5) {
-    align-self: flex-end;
   }
   #about h2 {
     color: #1C5166;
