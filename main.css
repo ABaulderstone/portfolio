@@ -179,6 +179,21 @@ h1, h2, h3 {
   background-color: #1C5166;
   height: 100vh;
 }
+#study h2 {
+  padding-top: 3%;
+}
+#study p {
+  color: #E6D8CF;
+}
+#study .tablebox {
+  margin-top: 10%;
+}
+#study .table {
+  margin: auto;
+}
+#study .table tr, #study .table td {
+  font-size: 3rem;
+}
 #study h3 {
   text-align: center;
 }
@@ -198,6 +213,9 @@ h1, h2, h3 {
 #work .additional {
   display: none;
 }
+#work p {
+  color: #1C5166;
+}
 #work .container {
   display: flex;
   flex-direction: column;
@@ -211,19 +229,21 @@ h1, h2, h3 {
 #work .container .tg td {
   padding: 10px 5px;
   border-style: solid;
+  color: #1C5166;
   border-width: 1px;
   overflow: hidden;
   word-break: normal;
-  border-color: black;
+  border-color: #1C5166;
 }
 #work .container .tg th {
   font-weight: normal;
   padding: 10px 5px;
+  color: #1C5166;
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   word-break: normal;
-  border-color: black;
+  border-color: #1C5166;
 }
 #work .container .tg .tg-0lax {
   text-align: left;
@@ -231,8 +251,11 @@ h1, h2, h3 {
 }
 
 #contact {
-  background-color: #5A707E;
+  background-color: #1C5166;
   height: 100vh;
+}
+#contact h2 {
+  padding-top: 3%;
 }
 #contact ul {
   list-style: none;
@@ -287,6 +310,7 @@ h1, h2, h3 {
 }
 #contact .container .textbox {
   z-index: 2;
+  margin-top: 25%;
 }
 #contact .container p {
   color: #E6D8CF;

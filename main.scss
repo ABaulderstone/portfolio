@@ -90,7 +90,23 @@ h1, h2, h3{
 #study {
     background-color: $ocean-blue;
     height: 100vh;
+    h2{
+        padding-top:3%;
+    }
     
+    p{ 
+        color: $sunset-background;
+    }
+    .tablebox {
+        margin-top: 10%;
+    }
+    
+    .table {
+        margin: auto;
+        tr, td { 
+            font-size: 3rem;
+        }
+    }
 
 
     h3 {
@@ -115,6 +131,9 @@ h1, h2, h3{
     .additional {
         display: none;
     }
+    p {
+        color: $ocean-blue;
+    }
     
     .container {
         display:flex;
@@ -131,18 +150,20 @@ h1, h2, h3{
 .tg td{
     padding:10px 5px;
     border-style:solid;
+    color: $ocean-blue;
     border-width:1px;
     overflow:hidden;
     word-break:normal;
-    border-color:black;}
+    border-color: $ocean-blue;}
 .tg th{
     font-weight:normal;
     padding:10px 5px;
+    color: $ocean-blue;
     border-style:solid;
     border-width:1px;
     overflow:hidden;
     word-break:normal;
-    border-color:black;
+    border-color: $ocean-blue;
 }
 .tg .tg-0lax{text-align:left;
     vertical-align:top
@@ -156,8 +177,11 @@ h1, h2, h3{
 
 
 #contact {
-    background-color: $green-grey;
+    background-color: $ocean-blue;
     height: 100vh;
+    h2{
+        padding-top:3%;
+    }
     
     ul {
         list-style: none;
@@ -168,6 +192,7 @@ h1, h2, h3{
         text-align: center;
         padding-bottom:1%
     }
+
 
     .container {
         display:flex;
@@ -218,6 +243,7 @@ h1, h2, h3{
         
         .textbox {
             z-index: 2;
+            margin-top: 25%;
         }
         p {
             color: $sunset-background;
