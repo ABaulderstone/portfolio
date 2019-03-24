@@ -289,6 +289,10 @@ footer {
      }
 }
 @media only screen and (min-height: 812px) {
+   
+    p, li {
+        font-size: larger;
+    }
     #work {
         .additional {
             display: inline-block;

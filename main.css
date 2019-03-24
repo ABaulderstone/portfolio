@@ -353,6 +353,10 @@ footer a:hover, footer a:focus {
 }
 
 @media only screen and (min-height: 812px) {
+  p, li {
+    font-size: larger;
+  }
+
   #work .additional {
     display: inline-block;
   }
@@ -365,6 +369,10 @@ footer a:hover, footer a:focus {
 @media only screen and (min-width: 1025px) {
   h2 {
     font-size: 2em;
+  }
+
+  p, li {
+    font-size: 1.3rem;
   }
 
   .transparent h1 {
@@ -395,7 +403,6 @@ footer a:hover, footer a:focus {
   }
   #about .textbox p {
     padding-bottom: 8%;
-    font-size: 1.3rem;
   }
   #about .image {
     order: 2;
@@ -423,7 +430,6 @@ footer a:hover, footer a:focus {
   }
   #study p {
     padding-bottom: 8%;
-    font-size: 1.3rem;
   }
   #study .typewriter {
     height: 20%;
@@ -446,7 +452,6 @@ footer a:hover, footer a:focus {
 
   #work p {
     padding-bottom: 8%;
-    font-size: 1.3rem;
   }
   #work .additional {
     display: inline-block;
@@ -461,9 +466,6 @@ footer a:hover, footer a:focus {
     margin: auto;
   }
 
-  #contact p, #contact li {
-    font-size: 1.3rem;
-  }
   #contact .container .circle {
     bottom: 20%;
   }

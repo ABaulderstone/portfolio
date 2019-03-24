@@ -2,7 +2,10 @@
     h2{ 
         font-size:2em;
     }
-   
+    p, li {
+        font-size: 1.3rem;
+    }
+
     .transparent{
 
         h1{
@@ -39,7 +42,7 @@
            width:40%;
            p{ 
                padding-bottom: 8%;
-               font-size: 1.3rem;
+               
            }
        }
         .image {
@@ -78,7 +81,7 @@
 
         p{ 
             padding-bottom: 8%;
-            font-size: 1.3rem;
+            
         }
         
         .typewriter {
@@ -109,7 +112,7 @@
 #work{
     p{ 
         padding-bottom: 8%;
-        font-size: 1.3rem;
+        
     }
     .additional {
         display: inline-block;
@@ -126,9 +129,7 @@
     }
 }
 #contact {
-    p, li {
-        font-size: 1.3rem;
-    }
+
     .container{
         .circle{
             bottom:20%;
