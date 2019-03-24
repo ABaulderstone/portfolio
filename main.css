@@ -115,7 +115,7 @@ h1, h2, h3 {
 .typewriter h2 {
   font-size: 1.5em;
   text-align: center;
-  padding-top: 3%;
+  margin-top: 3%;
 }
 
 #landing {
@@ -171,12 +171,26 @@ h1, h2, h3 {
   margin: auto;
 }
 
-#work {
+#study {
   background-color: #1C5166;
   height: 100vh;
 }
-#work h3 {
+#study h3 {
   text-align: center;
+}
+#study .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 80%;
+}
+
+#work {
+  height: 100vh;
+}
+#work h2 {
+  color: #1C5166;
 }
 #work .container {
   display: flex;
@@ -262,12 +276,23 @@ footer a:hover, footer a:focus {
   #about .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 100%;
+    align-items: flex-start;
+    width: 80%;
     height: 80%;
+    margin: auto;
+  }
+  #about .textbox {
+    width: 40%;
+  }
+  #about .textbox p {
+    padding-bottom: 8%;
+    font-size: 1.3rem;
   }
   #about .image {
     order: 2;
+  }
+  #about .image img {
+    width: 80%;
   }
   #about h2 {
     color: #1C5166;
@@ -278,23 +303,20 @@ footer a:hover, footer a:focus {
   }
   #about img {
     border-radius: 50%;
-    width: 100%;
-    margin-top: 0;
-    margin-right: 0;
   }
 
-  #work {
+  #study {
     background-color: #1C5166;
     height: 100vh;
   }
-  #work .typewriter {
+  #study .typewriter {
     height: 20%;
   }
-  #work h2 {
+  #study h2 {
     color: #E6D8CF;
     text-align: center;
   }
-  #work .container {
+  #study .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -302,20 +324,17 @@ footer a:hover, footer a:focus {
     height: 80%;
     margin: auto;
   }
-  #work .container div {
+  #study .container div {
     width: 40%;
   }
 
-  #portfolio .container {
+  #work .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80%;
-    height: 75%;
+    height: 80%;
     margin: auto;
-  }
-  #portfolio .typewriter {
-    height: 20%;
   }
 }
 
