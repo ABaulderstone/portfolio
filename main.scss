@@ -90,6 +90,9 @@ h1, h2, h3{
 #study {
     background-color: $ocean-blue;
     height: 100vh;
+    tr, td { 
+        font-size: 3rem;
+    }
     h2{
         padding-top:3%;
     }
@@ -103,9 +106,7 @@ h1, h2, h3{
     
     .table {
         margin: auto;
-        tr, td { 
-            font-size: 3rem;
-        }
+       
     }
 
 
@@ -288,20 +289,6 @@ footer {
          color: $main-pink;
      }
 }
-@media only screen and (min-height: 812px) {
-   
-    p, li {
-        font-size: larger;
-    }
-    #work {
-        .additional {
-            display: inline-block;
-        }
-    }
-    #contact .container .textbox {
-        z-index: 2;
-        margin-top: 50%;
-    }
-}
-@import "tablet";
-@import "desktop";
+
+
+@import "media"

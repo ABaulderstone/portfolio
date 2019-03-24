@@ -1,3 +1,54 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{ p
+     {
+    font-size: smaller;
+    }
+    #study {
+        tr, td { 
+        font-size: 2rem;
+    }
+}
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        p, li {
+            font-size: larger;
+        }
+        #work {
+            .additional {
+                display: inline-block;
+            }
+        }
+        #contact .container .textbox {
+            z-index: 2;
+            margin-top: 50%;
+        }
+    
+    }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    p, li {
+        font-size: 2rem;
+    }
+    #work {
+        .additional {
+            display: inline-block;
+        }
+    }
+    #contact .container .textbox {
+        z-index: 2;
+        margin-top: 50%;
+    }
+
+}
+
+
 @media only screen and (min-width: 1025px) {
     h2{ 
         font-size:2em;

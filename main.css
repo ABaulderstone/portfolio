@@ -179,6 +179,9 @@ h1, h2, h3 {
   background-color: #1C5166;
   height: 100vh;
 }
+#study tr, #study td {
+  font-size: 3rem;
+}
 #study h2 {
   padding-top: 3%;
 }
@@ -190,9 +193,6 @@ h1, h2, h3 {
 }
 #study .table {
   margin: auto;
-}
-#study .table tr, #study .table td {
-  font-size: 3rem;
 }
 #study h3 {
   text-align: center;
@@ -352,9 +352,32 @@ footer a:hover, footer a:focus {
   color: #ffc2c5;
 }
 
-@media only screen and (min-height: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+  p {
+    font-size: smaller;
+  }
+
+  #study tr, #study td {
+    font-size: 2rem;
+  }
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   p, li {
     font-size: larger;
+  }
+
+  #work .additional {
+    display: inline-block;
+  }
+
+  #contact .container .textbox {
+    z-index: 2;
+    margin-top: 50%;
+  }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  p, li {
+    font-size: 2rem;
   }
 
   #work .additional {
