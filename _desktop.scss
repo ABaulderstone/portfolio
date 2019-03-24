@@ -72,6 +72,10 @@
         background-color: $ocean-blue;
         height: 100vh;
         
+        tr, td { 
+            font-size: 4rem;
+        }
+
         p{ 
             padding-bottom: 8%;
             font-size: 1.3rem;
@@ -122,9 +126,29 @@
     }
 }
 #contact {
+    p, li {
+        font-size: 1.3rem;
+    }
     .container{
         .circle{
             bottom:20%;
+        }
+
+        .circle__el {
+            width: 0;
+            height: 0;
+            background: transparent;
+            border: 8px solid $sunset-background;
+            border-radius: 50%;
+            animation: go 3s ease-out infinite;
+        }
+        
+        .circle__el_two {
+            animation-delay: 1s;
+        }
+        
+        .circle__el_three {
+            animation-delay: 2s;
         }
     }
 }
