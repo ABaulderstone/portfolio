@@ -18,7 +18,7 @@ button {
                 transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    z-index:2;
+    z-index:3;
 }
 
 button:hover,
@@ -46,7 +46,7 @@ button:active {
     height:0%;
     background-color: rgba(0, 0, 0, 0.897);
     overflow-x: hidden;
-    z-index: 3;
+    z-index: 4;
     transition: all 0.5s;
     
     a{
