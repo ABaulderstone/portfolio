@@ -72,6 +72,11 @@
         background-color: $ocean-blue;
         height: 100vh;
         
+        p{ 
+            padding-bottom: 8%;
+            font-size: 1.3rem;
+        }
+        
         .typewriter {
             height: 20%;
         
@@ -98,10 +103,21 @@
 }
 
 #work{
+    p{ 
+        padding-bottom: 8%;
+        font-size: 1.3rem;
+    }
+    .image {
+        display: inline-block;
+        .img {
+        border-radius: 10%;
+        }
+    }
     .container {
         display:flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:80%;
         height: 80%;
         margin: auto;

@@ -19,12 +19,15 @@ h1, h2, h3{
 
 
 .typewriter {
-    height: 20%;
+    height: 10%;
     h2 {
         font-size: 1.5em;
         text-align: center;
         margin-top: 3%;
     }
+}
+.container {
+    height: 90%;
 }
 
 #landing {
@@ -98,7 +101,6 @@ h1, h2, h3{
         flex-direction: column;
         justify-content: flex-start;
         width:100%;
-        height: 80%;
 
     }
 
@@ -110,13 +112,15 @@ h1, h2, h3{
     h2{ 
         color: $ocean-blue;
     }
+    .additional {
+        display: none;
+    }
     
     .container {
         display:flex;
         flex-direction: column;
         justify-content: space-between;
         width:100%;
-        height: 80%;
         
 
 
@@ -171,7 +175,6 @@ h1, h2, h3{
         align-items: center;
         justify-content: center;
         width:95%;
-        height: 80%;
         margin:auto;
         position: relative;
         .circle {
@@ -179,7 +182,7 @@ h1, h2, h3{
             width: 100%;
             height: 100%;
             position: absolute;
-            bottom: 40%;
+            bottom: 35%;
             display: flex;
             align-items: center;
             align-content: center; 
