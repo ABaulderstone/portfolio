@@ -63,7 +63,7 @@ h1, h2, h3{
     .container{
         display:flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width:100%;
     }
     .image {
@@ -194,24 +194,24 @@ h1, h2, h3{
             width: 0;
             height: 0;
             background: transparent;
-            border: 5px solid #ffffff;
+            border: 5px solid $sunset-background;
             border-radius: 50%;
-            animation: go 1.5s ease-out infinite;
+            animation: go 3s ease-out infinite;
         }
         
         .circle__el_two {
-            animation-delay: 0.5s;
+            animation-delay: 1s;
         }
         
         .circle__el_three {
-            animation-delay: 1s;
+            animation-delay: 2s;
         }
         
         @keyframes go {
             100% { 
                 width: 200px;
               height: 200px;
-              box-shadow: 0 0 15px #ffffff;
+              box-shadow: 0 0 15px $sunset-background;
               opacity: 0;
             }
         }
