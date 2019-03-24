@@ -221,15 +221,15 @@ h1, h2, h3{
             background: transparent;
             border: 5px solid $sunset-background;
             border-radius: 50%;
-            animation: go 3s ease-out infinite;
+            animation: go 4.5s ease-out infinite;
         }
         
         .circle__el_two {
-            animation-delay: 1s;
+            animation-delay: 1.5s;
         }
         
         .circle__el_three {
-            animation-delay: 2s;
+            animation-delay: 3s;
         }
         
         @keyframes go {

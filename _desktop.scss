@@ -107,11 +107,9 @@
         padding-bottom: 8%;
         font-size: 1.3rem;
     }
-    .image {
+    .additional {
         display: inline-block;
-        .img {
-        border-radius: 10%;
-        }
+       
     }
     .container {
         display:flex;
@@ -121,7 +119,13 @@
         width:80%;
         height: 80%;
         margin: auto;
-
+    }
 }
+#contact {
+    .container{
+        .circle{
+            bottom:20%;
+        }
+    }
 }
 }

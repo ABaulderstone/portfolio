@@ -292,13 +292,13 @@ h1, h2, h3 {
   background: transparent;
   border: 5px solid #E6D8CF;
   border-radius: 50%;
-  animation: go 3s ease-out infinite;
+  animation: go 4.5s ease-out infinite;
 }
 #contact .container .circle__el_two {
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 #contact .container .circle__el_three {
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 @keyframes go {
   100% {
@@ -435,11 +435,8 @@ footer a:hover, footer a:focus {
     padding-bottom: 8%;
     font-size: 1.3rem;
   }
-  #work .image {
+  #work .additional {
     display: inline-block;
-  }
-  #work .image .img {
-    border-radius: 10%;
   }
   #work .container {
     display: flex;
@@ -449,6 +446,10 @@ footer a:hover, footer a:focus {
     width: 80%;
     height: 80%;
     margin: auto;
+  }
+
+  #contact .container .circle {
+    bottom: 20%;
   }
 }
 
