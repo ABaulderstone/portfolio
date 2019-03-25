@@ -31,11 +31,11 @@ This design meets the main critea of the breif: it shows my name and contact det
 ## Screenshots
 
 
-![alt text](docs/screenshot1.png) "Website screenshot 1 ")
-![alt text](docs/screenshot2.png) "Website screenshot 2 ")
-![alt text](docs/screenshot3.png) "Website screenshot 3 ")
-![alt text](docs/screenshot4.png) "Website screenshot 4 ")
-![alt text](docs/screenshot5.png) "Website screenshot 5 ")
+![alt text](docs/screenshot1.png) 
+![alt text](docs/screenshot2.png) 
+![alt text](docs/screenshot3.png) 
+![alt text](docs/screenshot4.png) 
+![alt text](docs/screenshot5.png) 
 
 
 
@@ -69,11 +69,11 @@ After that I created a moodboard on pintrest. Mainly looking at colour pallets a
     
 I then moved onto wireframes with Balsamiq:
 
-![alt text](docs/wireframe.png) "wireframe screenshot"
+![alt text](docs/wireframe.png)
 
 I then set up a Trello to break up the work of the website into "sprints" 
-![alt text](docs/trello1.png) "trello screenshot 1 "
-![alt text](docs/trello2.png) "trello screenshot 2 "
+![alt text](docs/trello1.png) 
+![alt text](docs/trello2.png)
 
 
     

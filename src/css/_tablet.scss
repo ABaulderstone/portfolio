@@ -1,0 +1,16 @@
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    p, li {
+        font-size: 2rem;
+    }
+    #work {
+        .additional {
+            display: inline-block;
+        }
+    }
+    #contact .container .textbox {
+        z-index: 2;
+        margin-top: 50%;
+    }
+
+}
