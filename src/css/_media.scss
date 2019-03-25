@@ -48,6 +48,22 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 
 }
 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+    p, li {
+        font-size: 2rem;
+    }
+    #work {
+        .additional {
+            display: inline-block;
+        }
+    }
+    #contact .container .textbox {
+        z-index: 2;
+        margin-top: 50%;
+    }
+
+}
+
 
 @media only screen and (min-width: 1025px) {
     h2{ 
